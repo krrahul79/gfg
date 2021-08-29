@@ -21,7 +21,7 @@ public class hashing {
         hset.clear(); // to clear the hash set
 
         //another way of traversing through hash set it
-
+       //map.putIfAbsent(A[i] + A[j], new ArrayList<>());
         for(Integer values : hset){
             System.out.println(values);
         }
@@ -165,7 +165,6 @@ public class hashing {
                 curr = 1;
                 while(hset.contains(i + curr)){
                     ++curr;
-                }
             }
             res = Math.max(res,curr);
         }

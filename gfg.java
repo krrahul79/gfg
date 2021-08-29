@@ -155,7 +155,7 @@ public class gfg {
     }
 
     class Test{
-        public void main(String args[]){
+        public void main(StringGFG args[]){
             Point arr[] = {new Point(1,2),new Point(1,2),new Point(1,2)};
             Arrays.sort(arr);
             Arrays.sort(arr, new MyComp());

@@ -125,7 +125,7 @@ public class Sorting {
 
 //    Union of two arrays
 //    a = [2, 10, 20, 20]
-//    b= [3. 20, 40]
+//    b = [3. 20, 40]
 //    ans: [2,3,10,20,40]
     //O(m+n)
     public void union(int a[], int b[], int m, int n) {
@@ -382,7 +382,7 @@ public class Sorting {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(StringGFG args[]) {
         //String a = "abc";
 //       String a[] = {"abc","2","10","0"};
   //   ArrayList a1 =  Arrays.asList("Hello","World");
@@ -402,7 +402,7 @@ public class Sorting {
 //        (String a )->false;
         //sorting.maxGuests();
     }
-    public void callFunction(String string){
+    public void callFunction(StringGFG stringGFG){
         int [][]arr = {{5,10},{3,15},{16,30},{2,7}};
         Arrays.sort(arr,new MyComp());
 
